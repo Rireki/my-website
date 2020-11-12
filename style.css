@@ -1,0 +1,94 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+body {
+  background-color: white;
+  color: black;
+  font-family: Verdana;
+  background-image: url('https://rireki.neocities.org/image_files/download_waifu2x_art_noise0_scale_tta_1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+ul {
+  list-style-type: none;
+}
+  .a {
+    text-align: center;
+                font-family: 'Source Sans Pro', sans-serif;
+                font-size:      14;
+                font-weight:    bold;
+                color:          #DDDDDD;
+  }
+  .b {
+    text-align: left;
+                font-family: 'Source Sans Pro', sans-serif;
+                font-size:      8;
+                font-weight:    normal;
+                color:          #DDDDDD;
+  }
+  .c {
+    text-align: right;
+                font-family: 'Source Sans Pro', sans-serif;
+                font-size:      8;
+                font-weight:    normal;
+                color:          #DDDDDD;
+  }
+
+#pagebody {
+    z-index: 1;
+    margin: auto;
+    background-color: black;
+    background: transparent;
+    border-style: solid;
+    border-color: #DDDDDD;
+    width: 600px;
+    padding: 30px;
+  }
+#footer {
+    z-index: 4;
+    margin: auto;
+    background-color: black;
+    background: transparent;
+    border-color: #DDDDDD;
+    width: 300px;
+    padding: 10px;
+  }
+#sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+}
+#form {
+    float: left;
+    width: 49.20%;
+    height: 248px;
+    overflow: auto;
+    vertical-align: top;
+    border: 1px solid black;
+    padding: 1px;
+}
+#form2 {
+    float: right;
+    width: 49.20%;
+    height: 248px;
+    overflow: auto;
+    vertical-align: top;
+    border: 1px solid black;
+    padding: 1px;
+}
+#form3 {
+    float: none;
+    width: 49.20%;
+    height: 248px;
+    overflow: auto;
+    vertical-align: top;
+    border: 1px solid black;
+    padding: 1px;
+}
